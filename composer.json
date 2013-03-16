@@ -1,0 +1,22 @@
+{
+    "name" : "ornicar/php-user-agent",
+    "description" : "Browser detection in PHP5. Uses a simple and fast algorithm to recognize major browsers.", 
+    "type" : "library",
+    "keywords" : ["browser", "detection", "php5", "useragent", "user-agent"],
+    "license" : "MIT",
+    "homepage" : "https://github.com/mceldeen/php-user-agent",
+    "authors" : [
+        {
+            "name" : "Thibault Duplessis",
+            "email" : "thibault.duplessis@gmail.com", 
+            "homepage" : "http://en.lichess.org/",
+            "role" : "Developer"
+        }
+    ],
+    "require" : {
+        "php" : ">=5.3"
+    },
+    "autoload" : {
+        "classmap" : ["lib/"]
+    }
+}
